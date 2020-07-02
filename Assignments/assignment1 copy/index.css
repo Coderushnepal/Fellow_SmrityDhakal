@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ background-position: center;
+  height: 540px;
+  background-size: cover;
+  }
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: #000;
+  transition: 0.6s ease;
+  border: 1px solid transparent;
+}
+
+ul li a:hover {
+  background-color: #B1B5BD;
+  color: #000;
+}
+
+.logo img {
+  float: left;
+  width: 55px;
+  height: auto;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.title img {
+  width: 95px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.title hr {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.title h1 {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: Baskerville Old Face;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.title h2 {
+  position: absolute;
+  top: 145%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  font-size: 15px;
+  color: #996666;
+  font-weight: 50;
+}
+
+.button {
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #6897bb;
+  padding: 10px 30px;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: #B1B5BD;
+  color: #000;
+}
+
+.benefits img {
+  height: 480px;
+  background-size: cover;
+  top: 266%;
+  position: absolute;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  opacity: 0.5;
+}
+
+.benefits h3 {
+  position: absolute;
+  top: 228%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-weight: 50;
+}
+
+.benefits p {
+  position: absolute;
+  top: 267%;
+  left: 70%;
+  transform: translate(-50%,-50%); 
+  font-size: 15px;
+  color: #996666;
+  font-weight: 50;
+}
+
+.benefits ol {
+  color: #6897bb;
+  position: absolute;
+  top: 310%;
+  left: 67%;
+  transform: translate(-50%,-50%); 
+ }
+
